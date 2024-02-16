@@ -1,0 +1,682 @@
+@import url('Poppins/Poppins-Regular.ttf');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/** -------- css for index header ------**/
+
+.header {
+
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.header__nav ul {
+    list-style-type: none;
+    margin: 9px;
+
+}
+
+.header__nav li {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: 1px solid black;
+    transition: 1s;
+}
+
+.header__nav a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid transparent;
+    padding: 10px;
+ 
+}
+
+.header__nav a:hover {
+    color: rgb(3, 127, 184);
+   border: 1px solid crimson;
+   padding: 10px;
+   transition-duration: 1s;  
+}
+
+
+.header__nav ul li:first-child {
+    border: none;
+}
+
+.header a {
+    color: black;
+}
+
+/******------------ css index home -----------**/
+
+.home {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding: 30px;
+    padding-bottom: 200px;
+}
+
+.home__image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.home__content {
+    color: #000;
+}
+
+.home__content h1 {
+    font-size: 32px;
+}
+
+.home__content h2 {
+    font-size: 16px;
+    color: black;
+}
+
+.home__content p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home__content--liens a {
+    display: inline-flex;
+    background: brown;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.home__content--liens .cv_lien {
+    background: rgb(214, 134, 28);
+}
+
+
+.home__content--liens .Projet_lien {
+    background: red;
+}
+
+.home__content--liens .Contact_lien {
+    background-color: aqua;
+}
+
+.home__content--liens a:hover {
+    background-color: #fff;
+    transition-duration: 2s;
+}
+
+/*****--------- css index footer --------***/
+.fin {
+    font-size: 16px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    padding: 10px;
+    color: #000;
+}
+
+.fin__tel a {
+    color: #000;
+}
+
+.fin__email a {
+    color: #000;
+}
+
+.fin__reseaux a {
+    color: #000;
+    background-color: #fff ;
+}
+
+.fin a:hover {
+   
+    color: crimson;
+    background-color:aliceblue;
+}
+
+.fin i {
+    font-size: 25px;
+    margin-top: 20px;
+ 
+
+}
+
+/*****-------------------------------- CSS CV -------------------***/
+.Curriculum {
+    padding: 50px 30px;
+    margin-right: 50px;
+    margin-left: 63px;
+}
+
+.Curriculum h1 {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+
+.Curriculum h2 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.Curriculum h3 {
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+.Curriculum span {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.Curriculum__experience {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 30px 0 30px;
+}
+
+.Curriculum__experience--diplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Curriculum__expe {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 30px 0 30px;
+}
+
+.Curriculum__expe--contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Curriculum__expepro {
+
+    padding: 30px 0 30px;
+}
+
+.Curriculum__expepro--contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*****---------------------- css contact ------------------*****/
+
+.Contact {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-right: 50px;
+    margin-left: 63px;
+}
+
+a {
+    color: #000;
+}
+
+.Contact__nous--inf {
+    padding-right: 30px;
+}
+
+.Contact__get-in-touch {
+    padding-top: 20px;
+}
+
+.Contact__get-in-touch--equipe label {
+    display: block;
+    padding: 17px;
+}
+
+.Contact__get-in-touch--equipe input,
+textarea {
+    margin: 10px;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 240px;
+}
+
+.Contact__get-in-touch--equipe input {
+    height: 25px;
+}
+
+.Contact__get-in-touch--equipe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.Contact__get-in-touch--equipe textarea {
+    height: 150px;
+}
+
+.Contact__get-in-touch--equipe button {
+    margin-top: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 50px;
+    color: #000;
+    background: #e956a2;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+/*------------------------- css projet ---------------------*/
+.detail {
+    padding: 50px;
+}
+
+.detail h1 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.detail h2 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.detail__contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+  font-size: 1rem;
+}
+
+.expli p {
+    text-align: justify;
+}
+
+.detail__contenu--image img {
+    width: 250px;
+    border: 6px solid rgb(163, 164, 161);
+}
+
+.detail__contenu--expli {
+    padding-right: 50px;
+}
+.detail__contenu--expli p{
+    text-align: justify;
+} 
+
+
+/**------------------- responsive index ------------------***/
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 2px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header__nav ul {
+        margin: 0;
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .header__nav li {
+        padding-left: 0;
+        padding-right: 0;
+        border-left: 1px solid black;
+    }
+
+    .header__nav a {
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        
+    }
+    .header__nav a:hover {
+        color: rgb(243, 6, 54);
+        border: 1px solid rgb(2, 255, 251);
+        padding: 10px;
+        transition-duration: 1s;
+    }
+/**------------responsive footer(max-width: 576px)------------------**/
+    .fin {
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .fin__tel a {
+        color: #0d0e0e;
+    }
+
+    .fin__email a {
+        color: #0c0c0d;
+    }
+
+    .fin__reseaux a {
+        color:rgb(3, 2, 6);
+    }
+
+    .fin a:hover {
+        color: #f70a75;
+    }
+
+    .fin i {
+        font-size: 25px;
+        margin-top: 20px;
+        transition-duration: 1s;
+    }
+
+}
+/**------------------ responsive index for header(max-width: 320px) --------**/ 
+@media screen and (max-width: 320px) {
+    .header__nav a {
+        font-size: 0.6rem;
+
+    }
+}
+/**---------- responsive index for home(max-width: 992px) -------------***/
+@media screen and (max-width: 992px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home__image img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        padding: 30px;
+    }
+
+    .home__content {
+        color: #000;
+    }
+
+    .home__content h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .home__content h2 {
+        font-size: 16px;
+        color: black;
+        text-align: center;
+    }
+
+    .home__content p {
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .home__content--liens a {
+        display: inline-flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/**----------------responsive Cv for(max-width: 576px) --------------**/
+@media screen and (max-width: 576px) {
+
+    .Curriculum {
+        padding: 20px 20px;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .Curriculum__experience--infor li {
+        font-size: 0.91rem;
+    }
+
+    .Curriculum h1 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+
+    .Curriculum h2 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+
+    .Curriculum h3 {
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+
+    .Curriculum span {
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    .Curriculum__experience {
+        padding: 10px 0 10px;
+    }
+
+    .Curriculum__experience--diplo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Curriculum__expe {
+        border-bottom: 1px solid rgb(200, 200, 200);
+        padding: 30px 0 30px;
+    }
+
+    .Curriculum__expe--contenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Curriculum__expepro {
+        padding: 15px 0 15px;
+    }
+
+    .Curriculum__expepro--contenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/**----------------responsive projet for(max-width: 576px) --------------**/
+@media screen and (max-width: 576px) {
+    .detail {
+        padding: 3px;
+    }
+
+    .detail h1 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+
+    .detail h3 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+
+    .detail__contenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 30px 0;
+        text-align: justify;
+    }
+
+    .detail__contenu--image img {
+        width: 89%;
+        border: 3px solid rgb(163, 164, 161);
+        padding-left: 0;
+        padding-right: 13px;
+        margin-left: 10px;
+    }
+
+    .detail__contenu--expli {
+        padding-right: 1px;
+    }
+
+    .detail__contenu p {
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+    .detail__contenu--expli p{
+        text-align: justify;
+    } 
+}
+
+/**----------------responsive Conctact for(max-width: 566px) --------------**/
+@media screen and (max-width: 566px) {
+
+    .Contact {
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .Contact__nous--inf {
+        text-align: center;
+        margin: 0;
+    }
+
+    .Contact__get-in-touch {
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .Contact__get-in-touch--equipe label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact__get-in-touch--equipe input,
+    textarea {
+        margin: 15px ;
+        border-radius: 0px;
+        border: 1px solid black;
+        width: 90%;
+        align-items: center;
+    }
+
+    .Contact__get-in-touch--equipe input {
+        height: 25px;
+        flex-direction: column;
+    }
+
+    .Contact__get-in-touch--equipe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact__get-in-touch--equipe textarea {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .Contact__get-in-touch--equipe button {
+        width: 140px;
+        height: 140px;
+        margin: auto;
+        padding: 55px;
+        color: #000;
+        background: #dd5fa0;
+        border: 1px solid #000;
+        border-radius: 50%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 992px) {
+   
+    .Contact {
+        padding: 20px 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .Contact__nous--inf {    
+        margin: 0;
+    } 
+}
